@@ -1,0 +1,268 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="623.2" height="1075.2" viewBox="-25.6 -25.6 623.2 1075.2">
+<!-- SVG created with Arrow, by QuiverAI (https://quiver.ai) -->
+  <defs>
+    <pattern id="fine-grid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <path d="M16 0H0V16" fill="none" opacity=".43" stroke="#aeb2ad" stroke-width=".48"/>
+    </pattern>
+    <marker id="arrow-head" markerHeight="7" markerWidth="7" orient="auto-start-reverse" refX="8" refY="5" viewBox="0 0 10 10">
+      <path d="m2 1 6 4-6 4" fill="none" stroke="#f4f5ed" stroke-width="1.5"/>
+    </marker>
+    <g id="registration-cross" fill="none" stroke="#d6d9d1" stroke-width=".8">
+      <path d="M-6 0H6M0-6V6"/>
+    </g>
+    <g id="vector-column" fill="#090b09" stroke="#ecede6" stroke-width=".7">
+      <path d="m0 0 5-4 6 2-5 4z" fill="#393b37"/>
+      <path d="m0 0 6 2v48l-6-2z"/>
+      <path d="m6 2 5-4v48l-5 4z" fill="#161916"/>
+      <path d="m0 8 6 2 5-4m-11 10 6 2 5-4m-11 10 6 2 5-4m-11 10 6 2 5-4m-11 10 6 2 5-4" fill="none"/>
+    </g>
+    <g id="transformer-box">
+      <path d="m0 0 11-7 57 13-10 7z" fill="#070807" stroke="#d6d9d2" stroke-width=".8"/>
+      <path d="m58 13 10-7v85l-10 9z" fill="#050605" stroke="#d6d9d2" stroke-width=".8"/>
+      <path d="M0 0L58 13V100L0 85Z" fill="#030403" stroke="#eceee5" stroke-width=".9"/>
+      <path d="m4 49 50 11" stroke="#898f86" stroke-width=".65"/>
+      <g transform="matrix(1 .23 0 1 6 12)" fill="#eff0e8" font-family="monospace">
+        <text font-size="6.5">ATTENTION</text>
+        <path d="m5 5v25h35z" fill="none" stroke="#e5e9df" stroke-width=".65"/>
+        <path d="m5 10h7m-7 5h14m-14 5h21m-21 5h28m-21-15v20m7-15v15m7-10v10m7-5v5" fill="none" stroke="#ecefe4" stroke-width=".55"/>
+        <g fill="#f3f5e9">
+          <circle cx="5" cy="5" r="1"/>
+          <circle cx="5" cy="10" r="1"/>
+          <circle cx="12" cy="10" r="1"/>
+          <circle cx="5" cy="15" r="1"/>
+          <circle cx="12" cy="15" r="1"/>
+          <circle cx="19" cy="15" r="1"/>
+          <circle cx="5" cy="20" r="1"/>
+          <circle cx="12" cy="20" r="1"/>
+          <circle cx="19" cy="20" r="1"/>
+          <circle cx="26" cy="20" r="1"/>
+          <circle cx="5" cy="25" r="1"/>
+          <circle cx="12" cy="25" r="1"/>
+          <circle cx="19" cy="25" r="1"/>
+          <circle cx="26" cy="25" r="1"/>
+          <circle cx="33" cy="25" r="1"/>
+          <circle cx="5" cy="30" r="1"/>
+          <circle cx="12" cy="30" r="1"/>
+          <circle cx="19" cy="30" r="1"/>
+          <circle cx="26" cy="30" r="1"/>
+          <circle cx="33" cy="30" r="1"/>
+          <circle cx="40" cy="30" r="1"/>
+        </g>
+        <text x="-3" y="44" font-size="6.4">FEED-FORWARD</text>
+        <path d="m10 52 12 4-12 10m0-14 12 13 13-14m-25 15 12-10 13 9m-13-9 13-5m-13 14h13" fill="none" stroke="#e4e8dd" stroke-width=".65"/>
+        <g fill="#030403" stroke="#f4f5ec" stroke-width=".9">
+          <circle cx="10" cy="52" r="3.2"/>
+          <circle cx="10" cy="66" r="3.2"/>
+          <circle cx="22" cy="56" r="3.2"/>
+          <circle cx="22" cy="65" r="3.2"/>
+          <circle cx="35" cy="51" r="3.2"/>
+          <circle cx="35" cy="65" r="3.2"/>
+        </g>
+      </g>
+    </g>
+  </defs>
+  <rect id="black-background" width="572" height="1024" fill="#010201"/>
+  <g id="frame" fill="none" stroke="#c9cdc5" stroke-width=".7">
+    <rect x="10" y="10" width="552" height="1002"/>
+    <path d="m10 55h552"/>
+    <use x="10" y="10" href="#registration-cross"/>
+    <use x="562" y="10" href="#registration-cross"/>
+    <use x="10" y="55" href="#registration-cross"/>
+    <use x="562" y="55" href="#registration-cross"/>
+    <use x="10" y="1012" href="#registration-cross"/>
+    <use x="562" y="1012" href="#registration-cross"/>
+    <use x="10" y="506" href="#registration-cross"/>
+    <use x="562" y="506" href="#registration-cross"/>
+    <use x="287" y="10" href="#registration-cross"/>
+    <use x="287" y="1012" href="#registration-cross"/>
+    <circle cx="287" cy="10" r="3.5"/>
+    <circle cx="287" cy="1012" r="3.5"/>
+    <circle cx="562" cy="506" r="3.5"/>
+    <path d="m287 48v14"/>
+  </g>
+  <text id="title" transform="translate(0) scale(.97 1)" x="27" y="44" fill="#f1f2ed" font-family="monospace" font-size="29" font-weight="400" letter-spacing="3.3">INSIDE AN LLM</text>
+  <g id="stage-labels" fill="#f1f3ea" font-family="monospace">
+    <g id="append-label">
+      <circle cx="39.5" cy="106.5" r="14.8" fill="none" stroke="#f1f3ea" stroke-width="1.1"/>
+      <text x="30" y="112" font-size="15">06</text>
+      <text x="67.5" y="106" font-size="10.5">APPEND &amp; REPEAT</text>
+      <text x="67.5" y="119.5" font-size="9.4">BUILD THE RESPONSE</text>
+    </g>
+    <g id="select-label">
+      <circle cx="39.5" cy="247.8" r="14.8" fill="none" stroke="#f1f3ea" stroke-width="1.1"/>
+      <text x="30" y="253" font-size="15">05</text>
+      <text x="67.5" y="247" font-size="10.5">SELECT</text>
+      <text x="67.5" y="260.5" font-size="9.4">CHOOSE ONE TOKEN</text>
+    </g>
+    <g id="predict-label">
+      <circle cx="39.5" cy="405" r="14.8" fill="none" stroke="#f1f3ea" stroke-width="1.1"/>
+      <text x="30" y="410.5" font-size="15">04</text>
+      <text x="67.5" y="405" font-size="10.5">PREDICT</text>
+      <text x="67.5" y="418" font-size="9.4">NEXT-TOKEN PROBABILITIES</text>
+    </g>
+    <g id="transformer-label">
+      <circle cx="39.5" cy="562.5" r="14.8" fill="none" stroke="#f1f3ea" stroke-width="1.1"/>
+      <text x="30" y="568" font-size="15">03</text>
+      <text x="67.5" y="562" font-size="10.2">TRANSFORMER BLOCKS</text>
+      <text x="67.5" y="575" font-size="9">ATTENTION + FEED-FORWARD</text>
+    </g>
+    <g id="embed-label">
+      <circle cx="39.5" cy="742.3" r="14.8" fill="none" stroke="#f1f3ea" stroke-width="1.1"/>
+      <text x="30" y="748" font-size="15">02</text>
+      <text x="67.5" y="742" font-size="10.5">EMBED</text>
+      <text x="67.5" y="755" font-size="9.4">TOKENS → VECTORS</text>
+    </g>
+    <g id="tokenize-label">
+      <circle cx="39.5" cy="894.5" r="14.8" fill="none" stroke="#f1f3ea" stroke-width="1.1"/>
+      <text x="30" y="900" font-size="15">01</text>
+      <text x="67.5" y="893.5" font-size="10.5">TOKENIZE</text>
+      <text x="67.5" y="907" font-size="9.4">TEXT → TOKENS</text>
+    </g>
+  </g>
+  <g id="append-response-platform" stroke-linejoin="round">
+    <path d="m150 144 83-68 228 49-85 69z" fill="#040504" stroke="#d6d9d0" stroke-width=".9"/>
+    <path transform="matrix(.7125 .1531 -.7411 .6071 233 76)" d="M0 0H320V112H0Z" fill="url(#fine-grid)"/>
+    <path d="m150 144 226 50 85-69v11l-85 69-226-51z" fill="#060706" stroke="#d6d9d0" stroke-width=".9"/>
+    <path d="m150 144 226 50v11m0-11 85-69" fill="none" stroke="#c7ccc1" stroke-width=".8"/>
+    <g id="response-token-cards" font-family="monospace" font-size="11" font-weight="bold">
+      <path d="m221 107 34 8-15 18-37-8z" fill="#030403" stroke="#eff0e7"/>
+      <text transform="matrix(.98 .22 -.22 .98 218 119)" fill="#f4f5ed">The</text>
+      <path d="m260 116 37 8-15 19-37-8z" fill="#030403" stroke="#eff0e7"/>
+      <text transform="matrix(.98 .22 -.22 .98 260 130)" fill="#f4f5ed">sky</text>
+      <path d="m302 125 36 8-14 19-38-8z" fill="#030403" stroke="#eff0e7"/>
+      <text transform="matrix(.98 .22 -.22 .98 304 140)" fill="#f4f5ed">is</text>
+      <path d="m343 134 37 9-13 18-39-8z" fill="#fffffa" stroke="#fffffa"/>
+      <text transform="matrix(.98 .22 -.22 .98 340 147)" fill="#060706">blue</text>
+      <path d="m388 144 27 6-17 17-24-5z" fill="#030403" stroke="#d6d9ce" stroke-width=".8"/>
+      <text transform="matrix(.98 .22 -.22 .98 383 154)" fill="#c9cfc2" font-size="9">…</text>
+    </g>
+  </g>
+  <g id="select-token-platform" stroke-linejoin="round">
+    <path d="m133 300 97-87 232 51-100 87z" fill="#030403" stroke="#d6d9d0" stroke-width=".9"/>
+    <path transform="matrix(.725 .1594 -.6736 .6042 230 213)" d="M0 0H320V144H0Z" fill="url(#fine-grid)"/>
+    <path d="m133 300 229 51 100-87v11l-100 87-229-52z" fill="#050705" stroke="#d6d9d0" stroke-width=".9"/>
+    <path d="m133 300 229 51v11m0-11 100-87" fill="none" stroke="#d0d5c8" stroke-width=".8"/>
+    <g id="candidate-tokens" font-family="monospace" font-size="11" font-weight="bold">
+      <path d="m235 228 41 10-17 18-40-10z" fill="#020302" stroke="#f1f3e9"/>
+      <text transform="matrix(.98 .22 -.22 .98 234 242)" fill="#f8f9ef">blue</text>
+      <path d="m294 241 41 9-17 20-41-10z" fill="#020302" stroke="#f1f3e9"/>
+      <text transform="matrix(.98 .22 -.22 .98 290 255)" fill="#f8f9ef">clear</text>
+      <path d="m353 254 41 9-16 19-41-9z" fill="#020302" stroke="#f1f3e9"/>
+      <text transform="matrix(.98 .22 -.22 .98 355 268)" fill="#f8f9ef">...</text>
+    </g>
+    <g id="selection-funnel" fill="none" stroke="#e4e7db" stroke-width=".7">
+      <path d="m241 253v14l53 13m9-13v11m58 1v13l-58-11" stroke-dasharray="1.2 1.6"/>
+      <path d="m277 284 17-10 23 6-20 9z" fill="#dbe2d1" fill-opacity=".07"/>
+      <path d="m277 284 17 26 23-30m-23-6v36l3-21m-20-5 20 5-3 21"/>
+      <path d="m285 283 13-5 12 3-13 5z" stroke-width=".45"/>
+    </g>
+    <path d="m281 311 37 8-11 15-37-8z" fill="#fffff7" stroke="#f9fcf1" stroke-width=".8"/>
+    <text transform="matrix(.98 .22 -.22 .98 280 322)" fill="#060706" font-family="monospace" font-size="11" font-weight="bold">blue</text>
+  </g>
+  <g id="prediction-platform" stroke-linejoin="round">
+    <path d="m141 449 88-76 230 57-89 78z" fill="#030403" stroke="#d6d9d0" stroke-width=".9"/>
+    <path transform="matrix(.7188 .1781 -.6875 .5938 229 373)" d="M0 0H320V128H0Z" fill="url(#fine-grid)"/>
+    <path d="m141 449 229 59 89-78v11l-89 77-229-58z" fill="#060706" stroke="#d6d9d0" stroke-width=".9"/>
+    <path d="m141 449 229 59v10m0-10 89-78" fill="none" stroke="#d0d5c8" stroke-width=".8"/>
+    <g id="probability-bars" stroke="#f0f2e7" stroke-width=".8">
+      <path d="m227 395 7-6 15 3-8 6z" fill="#fffffa"/>
+      <path d="m227 395 14 3v41l-15-4z" fill="#fffffa"/>
+      <path d="m241 398 8-6v39l-8 8z" fill="#171c17"/>
+      <path d="m280 422 8-6 14 4-8 6z" fill="#777b74"/>
+      <path d="m280 422 14 4v26l-15-4z" fill="#494d47"/>
+      <path d="m294 426 8-6v24l-8 8z" fill="#232722"/>
+      <path d="m334 444 7-6 14 3-7 6z" fill="#696d67"/>
+      <path d="m334 444 14 3v19l-15-4z" fill="#464b43"/>
+      <path d="m348 447 7-6v17l-7 8z" fill="#20251e"/>
+    </g>
+    <g id="probability-token-labels" fill="#f5f6ec" font-family="monospace" font-size="11" font-weight="bold">
+      <path d="m217 434 40 10-17 17-39-10z" fill="#020302" stroke="#e5e9dc" stroke-width=".9"/>
+      <text transform="matrix(.97 .25 -.25 .97 215 447)">blue</text>
+      <path d="m269 447 40 10-16 17-39-10z" fill="#020302" stroke="#e5e9dc" stroke-width=".9"/>
+      <text transform="matrix(.97 .25 -.25 .97 266 461)">clear</text>
+      <path d="m326 462 38 9-17 17-37-9z" fill="#020302" stroke="#e5e9dc" stroke-width=".9"/>
+      <text transform="matrix(.97 .25 -.25 .97 324 475)">...</text>
+    </g>
+  </g>
+  <g id="transformer-stack" stroke-linejoin="round">
+    <path d="m133 630 80-72 263 92-52 51z" fill="#020302" stroke="#d6d9d0" stroke-width=".8"/>
+    <path transform="matrix(.7514 .2629 -.6667 .6 213 558)" d="M0 0H350V120H0Z" fill="url(#fine-grid)" opacity=".7"/>
+    <path d="m195 621v-93l12-11 261 65-1 78" fill="#020302" fill-opacity=".35" stroke="#c4cabf" stroke-width=".8"/>
+    <path d="m207 517v12l249 65 12-12m-12 12v73" fill="none" opacity=".65" stroke="#8e9687" stroke-width=".45"/>
+    <path d="m133 630 291 71 52-51v11l-52 52-291-72z" fill="#060806" stroke="#e0e4d8" stroke-width=".9"/>
+    <path d="m133 630 291 71v12m0-12 52-51" fill="none" stroke="#cfd5c7" stroke-width=".8"/>
+    <use transform="translate(192 536)" href="#transformer-box"/>
+    <use transform="translate(270 556)" href="#transformer-box"/>
+    <use transform="translate(348 575)" href="#transformer-box"/>
+    <g id="block-connections" fill="none" stroke="#f1f4e8" stroke-width=".85">
+      <path d="m255 588 10 3" marker-end="url(#arrow-head)"/>
+      <path d="m332 608 11 3" marker-end="url(#arrow-head)"/>
+      <path d="m411 627 8 3" marker-end="url(#arrow-head)"/>
+      <path d="m220 632v-6m78 25v-6m78 25v-6" marker-end="url(#arrow-head)"/>
+      <circle cx="220" cy="637" r="4.5"/>
+      <path d="m217 637h6m-3-3v6"/>
+      <circle cx="298" cy="656" r="4.5"/>
+      <path d="m295 656h6m-3-3v6"/>
+      <circle cx="376" cy="675" r="4.5"/>
+      <path d="m373 675h6m-3-3v6"/>
+      <path d="m220 642v5l156 38v-5" stroke="#a4ad9b" stroke-width=".55"/>
+      <path d="m287 663v15" marker-start="url(#arrow-head)" stroke-width=".7"/>
+    </g>
+    <text transform="rotate(14 430 641)" x="430" y="641" fill="#f0f2e5" font-family="monospace" font-size="16" letter-spacing="1">...</text>
+    <text transform="rotate(14 240 681)" x="240" y="681" fill="#eff2e6" font-family="monospace" font-size="9" letter-spacing=".4">REPEATED BLOCKS</text>
+  </g>
+  <g id="embedding-platform" stroke-linejoin="round">
+    <path d="m128 800 92-85 248 64-91 87z" fill="#030403" stroke="#d6d9d0" stroke-width=".9"/>
+    <path transform="matrix(.7381 .1905 -.6389 .5903 220 715)" d="M0 0H336V144H0Z" fill="url(#fine-grid)"/>
+    <path d="m128 800 249 66 91-87v13l-91 87-249-67z" fill="#040604" stroke="#d6d9d0" stroke-width=".9"/>
+    <path d="m128 800 249 66v13m0-13 91-87" fill="none" stroke="#d0d5c8" stroke-width=".8"/>
+    <use transform="translate(222 731)" href="#vector-column"/>
+    <use transform="translate(271 742)" href="#vector-column"/>
+    <use transform="translate(319 755)" href="#vector-column"/>
+    <use transform="translate(367 767)" href="#vector-column"/>
+    <g id="embedded-token-labels" fill="#f7f8ee" font-family="monospace" font-size="11" font-weight="bold">
+      <path d="m209 783 35 9-16 18-35-9z" fill="#020302" stroke="#f0f3e7"/>
+      <text transform="matrix(.97 .25 -.25 .97 207 796)">The</text>
+      <path d="m258 795 36 10-17 17-36-9z" fill="#020302" stroke="#f0f3e7"/>
+      <text transform="matrix(.97 .25 -.25 .97 254 810)">sky</text>
+      <path d="m305 808 37 9-16 18-36-9z" fill="#020302" stroke="#f0f3e7"/>
+      <text transform="matrix(.97 .25 -.25 .97 306 823)">is</text>
+      <text transform="matrix(.97 .25 -.25 .97 347 831)" font-size="15">...</text>
+    </g>
+    <text transform="rotate(15 228 836)" x="228" y="836" fill="#f0f3e8" font-family="monospace" font-size="9">POSITION</text>
+    <text transform="rotate(14 406 786)" x="406" y="786" fill="#e8ede0" font-family="monospace" font-size="6">
+      <tspan x="406">VECTOR</tspan>
+      <tspan x="406" dy="7">DIMENSION</tspan>
+    </text>
+    <path d="m138 805v6" stroke="#d7ddcf" stroke-width=".8"/>
+  </g>
+  <g id="tokenization-platform" stroke-linejoin="round">
+    <path d="m138 931 68-54 245 57-68 54z" fill="#030403" stroke="#d6d9d0" stroke-width=".9"/>
+    <path transform="matrix(.7292 .1696 -.7083 .5625 206 877)" d="M0 0H336V96H0Z" fill="url(#fine-grid)"/>
+    <path d="m138 931 245 57 68-54v11l-68 54-245-58z" fill="#050705" stroke="#d6d9d0" stroke-width=".9"/>
+    <path d="m138 931 245 57v11m0-11 68-54" fill="none" stroke="#d0d5c8" stroke-width=".8"/>
+    <g id="input-token-cards" fill="#f8f9ef" font-family="monospace" font-size="11.5" font-weight="bold">
+      <path d="m224 903 42 10-16 19-42-10z" fill="#020302" stroke="#f1f3e8"/>
+      <text transform="matrix(.975 .225 -.225 .975 225 917)">The</text>
+      <path d="m283 917 41 10-18 19-41-10z" fill="#020302" stroke="#f1f3e8"/>
+      <text transform="matrix(.975 .225 -.225 .975 283 932)">sky</text>
+      <path d="m338 930 41 10-17 20-41-10z" fill="#020302" stroke="#f1f3e8"/>
+      <text transform="matrix(.975 .225 -.225 .975 343 947)">is</text>
+    </g>
+  </g>
+  <g id="upward-flow-arrows" fill="none" marker-end="url(#arrow-head)" stroke="#f5f7ed" stroke-width="1.65">
+    <path d="m287 887v-23"/>
+    <path d="m287 723v-23"/>
+    <path d="m287 528v-23"/>
+    <path d="m287 379v-24"/>
+    <path d="m287 217v-24"/>
+  </g>
+  <g id="autoregressive-repeat-loop">
+    <path d="m535 686v-527q0-22-22-24l-43-3" fill="none" marker-end="url(#arrow-head)" stroke="#f1f3ea" stroke-width="1.4"/>
+    <path d="m535 717v39q0 25-19 27l-43 1" fill="none" marker-end="url(#arrow-head)" stroke="#f1f3ea" stroke-width="1.4"/>
+    <g fill="#f4f6ed" font-family="monospace" font-size="9.6" letter-spacing=".45" text-anchor="middle">
+      <text x="528" y="698">REPEAT</text>
+      <text x="528" y="710">UNTIL STOP</text>
+    </g>
+  </g>
+</svg>
